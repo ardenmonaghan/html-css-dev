@@ -1,0 +1,217 @@
+/* FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+      Font : 400 */
+
+/* Colors
+
+grays
+#e9ecef
+#333
+
+
+#114c80
+#145896
+#4998de
+#0c355a
+
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: 400;
+  line-height: 1;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.farhan-raza {
+  display: block;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  color: #444;
+  letter-spacing: 0.1rem;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+}
+
+.heading-third {
+  font-size: 3rem;
+}
+
+.text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.margin-b--xlarge {
+  margin-bottom: 9.6rem;
+}
+
+.margin-b--xsmall {
+  margin-bottom: 2rem;
+}
+
+.padding-updown-xlarge {
+  padding: 14.8rem 0;
+}
+
+.grid {
+  display: grid;
+}
+
+.margin-b--xxlarge {
+  margin-bottom: 16.8rem;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+.grid--3-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid--4-cols {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.space-between {
+  align-items: space-between;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.general-link:link,
+.general-link:visited {
+  color: #a1bcd5;
+  text-decoration: none;
+}
+
+.general-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.general-icon-link:link,
+.general-icon-link:visited {
+  color: #a1bcd5;
+  text-decoration: none;
+}
+
+.general-icon-link:active,
+.general-icon-link:hover {
+  color: #d0deea;
+}
+
+.section-name {
+  color: #fff;
+  font-size: 2.6rem;
+  letter-spacing: 0.2rem;
+
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* **************** */
+/* Modal */
+/* ******** */
+
+.modal {
+  position: fixed;
+  background-color: white;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 8rem 5rem;
+  width: 70%;
+  z-index: 10;
+  border-radius: 12px;
+}
+
+.modal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.modal-enter {
+}
+
+.modal-heading {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.modal input,
+.modal select {
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.modal label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.modal-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
+}

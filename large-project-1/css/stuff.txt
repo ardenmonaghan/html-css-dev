@@ -1,0 +1,118 @@
+<div class="test">
+            <div class="test-1">
+              <p class="section-name">About Me</p>
+            </div>
+            <div class="test-2">
+              <h1 class="heading-primary text-white">
+                The Early Life of Farhan Raza
+              </h1>
+            </div>
+          </div>
+          <div class="about-me-background">
+            <div class="container">
+              <div class="about-me-container">
+                <div class="about-me-holder">
+                  <h3 class="heading-third biography">Biography</h3>
+                  <p class="text about-me-p">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quo incidunt fugit vitae maiores dolorem porro, magni rem
+                    minus. Aperiam unde repellat minus at esse ullam
+                    reprehenderit tem
+                  </p>
+                  <p class="text about-me-p">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quo incidunt fugit vitae maiores dolorem porro, magni rem
+                    minus. Aperiam unde repellat minus at esse ullam
+                    reprehenderit temporibu
+                  </p>
+                </div>
+                <div class="about-me-img">
+                  <img
+                    src="img/fridaynights.png"
+                    class="farhan-img"
+                    alt="farhan on friday
+                          night on rocks"
+                  />
+                </div>
+
+                <div class="about-me-img">
+                  <img
+                    src="img/grad.png"
+                    class="farhan-img"
+                    alt="farhan on friday
+                          night on rocks"
+                  />
+                </div>
+                <div class="about-me-holder">
+                  <h3 class="heading-third biography">Upbringing</h3>
+                  <p class="text about-me-p">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quo incidunt fugit vitae maiores dolorem porro, magni rem
+                    minus. Aperiam unde repellat minus at esse ullam
+                    reprehenderit temporibus inventore facilis earum elige
+                  </p>
+                  <p class="text about-me-p">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quo incidunt fugit vitae maiores dolorem porro, magni rem
+                    minus. Aperiam unde repellat minus at esse ullam
+                    reprehenderit temporibus inventore facilis earum eligendi, h
+                    animi?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div
+
+
+
+.about-me-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8rem;
+  row-gap: 9.6rem;
+}
+.about-me-holder {
+  /* border-top: 5px solid #114c80;
+  border-bottom: 5px solid #114c80; */
+  padding: 3.2rem 0;
+}
+
+.biography {
+  color: #0c355a;
+  margin-bottom: 4.8rem;
+}
+
+.about-me-p {
+  color: #092640;
+  margin-bottom: 2.4rem;
+}
+
+.about-me-p:last-child {
+  margin-bottom: 0;
+}
+
+.about-me-img {
+  position: relative;
+  overflow: hidden;
+  align-self: center;
+}
+
+.about-me-img::after {
+  content: "Certified Handsome";
+  position: absolute;
+  font-size: 1.2rem;
+  font-size: 700;
+  padding: 0.6rem 4.8rem;
+  top: 8%;
+  right: -10%;
+  transform: rotate(45deg);
+
+  background-color: #145896;
+  color: #fff;
+}
+
+.farhan-img {
+  width: 100%;
+  height: 50rem;
+  border-radius: 2px;
+}
